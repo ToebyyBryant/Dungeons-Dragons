@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- 
+	Student Name: Bruce Schulz
+	File Name: template.html
+	Today's Date: 11.14.24
+ -->
+<html lang="en">
+<head>
+	<title>Dungeons & Dragons: Contact</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Emblema+One|Lora&display=swap" rel="stylesheet">
+    <body>
+
+        <div id="wrapper">
+    
+            <header>
+                <div class="tab-desk">
+                    <div class="hero-image">
+                        <div class="hero-text">
+                            <h1>Dungeons & Dragons</h1>
+                            <h3>Best Tabletop Roleplaying Game?</h3>
+                            <h3></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <h1>Dungeons & Dragons</h1>
+                    <h3>Best Tabletop Roleplaying Game?</h3>
+                </div>
+    
+            </header>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <main>
+    
+                <div class="form">
+                    <h2>Complete the form below and we will contact you soon.</h2>
+                    <form class="form-grid"><!--Start Form-->
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <label for="fName">First Name: </label>
+                            <input type="text" name="fName" id="fName">
+                            <label for="lName">Last Name: </label>
+                            <input type="text" name="lName" id="lName">
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email">
+                            <label for="phone">Phone: </label>
+                            <input type="tel" name="phone" id="phone">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Additional Information</legend>
+                            <p>I would like more information about:</p>
+                            <label for="vol">
+                                <input type="radio" name="info" id="vol" value="Volunteering">
+                                Becoming a Game Master
+                            </label>
+                            <label for="vol">
+                                <input type="radio" name="info" id="sponsor" value="Sponsorship Opportunities">
+                                Becoming a Player
+                            </label>
+                            <label for="vol">
+                                <input type="radio" name="info" id="wild" value="Wildlife">
+                                Finding a game near you
+                            </label>
+                            <label for="vol">
+                                <input type="radio" name="info" id="other" value="Other">
+                                Other, please specify below.
+                            </label>
+                            <label for="questions">What questions do you have for us?</label>
+                            <textarea name="questions" id="questions" rows="5" cols="35"></textarea>
+                            <button type="submit" id="submit" value="Submit" class="btn">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+    
+            </main>
+    
+            <footer>
+                <p>D&D is the BEST!</p>
+                <p><a href="mailto:bruceschulz@southeasttech.edu">bruceschulz@southeasttech.edu</a></p>
+    
+            </footer>
+    
+        </div>
+    
+    </body>
+</html>
